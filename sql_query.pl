@@ -14,12 +14,18 @@ my %config = read_config( $filename, 'utf8' );
 my $database = $config{'source'}{'database'};
 my $user = $config{'source'}{'username'};
 my $password = $config{'source'}{'pass'};
+my $query = $config{'cursor'}{'query'};
 
 my $dbh = DBI->connect("DBI:mysql:$database", $user, $password,{ RaiseError => 1, AutoCommit => 1 });
+my $result = $dbh->do($query);
+#print $result;
+print "SUCCESSFUL";
+
+$dbh->disconnect;
 
 
 #print Dumper \%config;
-print $config{'cursor'}{'query'};
+#print $config{'cursor'}{'query'};
 
 sub read_config {
 	my ($file) = @_;
