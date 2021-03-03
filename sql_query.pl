@@ -5,7 +5,7 @@ use Data::Dumper qw(Dumper);
 
 # my @drivers = DBI->available_drivers;
 # my @mysql_data_sources = DBI->data_sources('mysql');
-# print "Available drivers :\n" . join("\n",@drivers) ."\n";
+# print "Available   drivers :\n" . join("\n",@drivers) ."\n";
 # print "MySQL databases:\n" . join("\n",@mysql_data_sources) . "\n";
 
 
@@ -37,7 +37,7 @@ sub read_config {
 			$section_name = $1;
 			next;
 		}
-		my ($field, $value) = split /\s*=\s*(.+$)/, $line;
+		my ($field, $value) = split /\s*=\s*(.+$)/, $line; # Делим строчку на парамерт и значение по первому символу "="
 		$sections{$section_name}{$field} = $value;
 	}
 	return %sections;
