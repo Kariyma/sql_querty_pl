@@ -1,0 +1,1043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"section_name"
+			],
+			[
+				"va",
+				"vasy"
+			],
+			[
+				"D",
+				"Dumper"
+			],
+			[
+				"ro",
+				"row_hash_1"
+			],
+			[
+				"ha",
+				"hash_values"
+			],
+			[
+				"ke",
+				"key_hesh"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"category_",
+				"category_name"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"vi",
+				"virtuemart_category_id"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"limit",
+				"limitStart"
+			],
+			[
+				"li",
+				"limitstart"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"h",
+				"hyphens\tproperty"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"aling",
+				"align-self\tproperty"
+			],
+			[
+				"pb",
+				"bgcp-pb\tbackground-clip: padding-box;"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"alin",
+				"align-self\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"s",
+				"css/"
+			],
+			[
+				"z-",
+				"z-index\tproperty"
+			],
+			[
+				"ove",
+				"overflow\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"over",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"bgc",
+				"background-color\tproperty"
+			],
+			[
+				"u",
+				"underline\ttext-decoration"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"b",
+				"browserSync"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"PRI",
+				"print_r"
+			],
+			[
+				"defi",
+				"defined"
+			],
+			[
+				"o",
+				"owl.carousel.min.js"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"vali",
+				"validateForm"
+			],
+			[
+				"to",
+				"tooltip"
+			],
+			[
+				"toolti",
+				"tooltipBlock"
+			],
+			[
+				"tol",
+				"tooltipBlock"
+			],
+			[
+				"tool",
+				"tooltip"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"w",
+				"whs\twhite-space"
+			],
+			[
+				"sub",
+				"submitForm"
+			],
+			[
+				"fi",
+				"find"
+			],
+			[
+				"form",
+				"formGroup"
+			],
+			[
+				"c",
+				"owl-carousel"
+			],
+			[
+				"cu",
+				"cur-p\tcursor: pointer;"
+			],
+			[
+				"ta",
+				"ta-l\ttext-align: left;"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"sp",
+				"sponsor_facebook.png\tw:158 h:36"
+			],
+			[
+				"spo",
+				"sponsor_envato.png\tw:157 h:36"
+			],
+			[
+				"sl",
+				"slider5.jpg\tw:600 h:300"
+			],
+			[
+				"tr",
+				"trf\ttransform"
+			],
+			[
+				"lo",
+				"logo.png\tw:549 h:155"
+			],
+			[
+				"my",
+				"myExt"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tex",
+				"text_type"
+			],
+			[
+				"com",
+				"complete_task"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"j",
+				"js1"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"ar",
+				"arrData"
+			],
+			[
+				"id",
+				"idComm"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"m",
+				"method\tAttr"
+			],
+			[
+				"get",
+				"getXmlHttp"
+			],
+			[
+				"ch",
+				"checkLogin"
+			],
+			[
+				"XM",
+				"XMLHttpRequest"
+			],
+			[
+				"on",
+				"onblur\tAttr"
+			],
+			[
+				"sc",
+				"screenX"
+			],
+			[
+				"prep",
+				"prependTo"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ran",
+				"rannum"
+			],
+			[
+				"new",
+				"newContentText"
+			],
+			[
+				"fir",
+				"firstNode"
+			],
+			[
+				"last",
+				"lastNode"
+			],
+			[
+				"repla",
+				"replaceChild"
+			],
+			[
+				"sel",
+				"selList"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"list",
+				"list"
+			],
+			[
+				"ne",
+				"newA"
+			],
+			[
+				"no",
+				"nodeList"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"tab",
+				"table-header-group"
+			],
+			[
+				"t",
+				"table-header-group"
+			],
+			[
+				"l",
+				"legs_tree.png\tw:474 h:519"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "use DBI;\nuse strict; \nuse warnings;\nuse Data::Dumper qw(Dumper);\n\n# my @drivers = DBI->available_drivers;\n# my @mysql_data_sources = DBI->data_sources('mysql');\n# print \"Available   drivers :\\n\" . join(\"\\n\",@drivers) .\"\\n\";\n# print \"MySQL databases:\\n\" . join(\"\\n\",@mysql_data_sources) . \"\\n\";\n\n\nmy $filename = shift or die \"Usage: $0 FILENAME\\n\";\nmy %config = read_config( $filename, 'utf8' );\nmy $database = $config{'source'}{'database'};\nmy $user = $config{'source'}{'username'};\nmy $password = $config{'source'}{'pass'};\n\nmy $dbh = DBI->connect(\"DBI:mysql:$database\", $user, $password,{ RaiseError => 1, AutoCommit => 1 });\n\n\n#print Dumper \\%config;\nprint $config{'cursor'}{'query'};\n\nsub read_config {\n\tmy ($file) = @_;\n\tmy %sections;\n\tmy $section_name = '';\n\topen my $fh, '<'. $file or die \"Could not open the '$file' $!\";\n\twhile (my $line = <$fh>){\n\t\tchomp $line;\n\t\t$line =~ s/(#.*)$//; \t# Ищем в строке комментарии и удаляем его\n\t\t$line =~ s/^\\s+|\\s+$//g; #Ищем пробелы в начале и в конце строки и удаляем их\n\t\tif ($line =~ /^\\s*$/) {\n\t\t\tnext;\n\t\t}\n\t\tif ($line =~ /^\\[(.+)\\]$/){ # Ищем начло секции и берём её имя\n\t\t\t$section_name = $1;\n\t\t\tnext;\n\t\t}\n\t\tmy ($field, $value) = split /\\s*=\\s*(.+$)/, $line;\n\t\t$sections{$section_name}{$field} = $value;\n\t}\n\treturn %sections;\n}",
+			"file": "sql_query.pl",
+			"file_size": 1419,
+			"file_write_time": 132592367936901867,
+			"settings":
+			{
+				"buffer_size": 1278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sql_insert.txt",
+			"settings":
+			{
+				"buffer_size": 1329,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 336.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 294.0
+	},
+	"console":
+	{
+		"height": 344.0,
+		"history":
+		[
+			"git -v",
+			"node -v",
+			".row.col-sm-6",
+			"Command Search",
+			"FindKeyConflicts",
+			"FindKeyConflicts: Command Search",
+			"`FindKeyConflicts: All Key Maps to Quick Panel`",
+			"FindKeyConflicts: All Key Maps to Quick Panel",
+			"All Key Maps to Quick Panel",
+			"FindKeyConflicts: All Key Maps to Quick Panel",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Perl/sql_query"
+	],
+	"file_history":
+	[
+		"/D/Perl/sql_insert.txt",
+		"/D/Perl/sql_query.pl",
+		"/D/Perl/read_config2.pl",
+		"/D/Perl/config.ini",
+		"/D/Perl/hesh2.pl",
+		"/D/Perl/hesh.pl",
+		"/D/Perl/read_config1.pl",
+		"/D/Perl/read_config.pl",
+		"/D/Perl/my.pl",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/mod_virtuemart_product_slider/default.php",
+		"/D/Perl/my1.pl",
+		"/D/Perl/data.txt",
+		"/D/Perl/reg.pl",
+		"/D/OSPanel/domains/azhurkovka31ru/modules/mod_virtuemart_product_slider/tmpl/default.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/mod_virtuemart_product_slider/00default.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/com_virtuemart/category/default.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/com_virtuemart/category/home.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/mod_virtuemart_category/topbanner.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/com_virtuemart/sublayouts/products.php",
+		"/D/openserver/userdata/config/PHP_7.1_php.ini",
+		"/D/OSPanel/domains/azhurkovka31ru/modules/mod_accordeonck/elements/ckvmcategory.php",
+		"/D/OSPanel/domains/azhurkovka31ru/administrator/components/com_virtuemart/helpers/vmdefines.php",
+		"/D/OSPanel/domains/trendtmp/modules/mod_virtuemart_manufacturer/helper.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/tpls/trendshop.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/tpls/blocks/mainbody.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/tpls/blocks/mainbody/one-sidebar-left.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/html/com_virtuemart/virtuemart/default.php",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/system/t3/includes/core/templatelayout.php",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/content/jcomments/jcomments.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/mod_vm_cart/mycart.php",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/content/vote/vote.php",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/content/contact/contact.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/html/mod_vm_cart/default.php",
+		"/D/OSPanel/domains/trendtmp/administrator/components/com_virtuemart/helpers/vmdefines.php",
+		"/D/OSPanel/domains/trendtmp/administrator/components/com_virtuemart/helpers/config.php",
+		"/D/OSPanel/domains/azhurkovka31ru/language/ru-RU/ru-RU.com_virtuemart.ini",
+		"/D/OSPanel/domains/azhurkovka31ru/language/overrides/ru-RU.override.ini",
+		"/D/OSPanel/domains/trendtmp/language/overrides/ru-RU.override.ini",
+		"/D/OSPanel/domains/trendtmp/language/ru-RU/ru-RU.com_virtuemart_shoppers.ini",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/system/t3/includes/core/template.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/index.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/component.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/index.php",
+		"/D/OSPanel/domains/azhurkovka31ru/plugins/content/joomla/joomla.php",
+		"/D/OSPanel/domains/trendtmp/plugins/system/vmquickview/vmquickview.xml",
+		"/D/OSPanel/domains/azhurkovka31ru/index.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/component.php",
+		"/D/OSPanel/domains/azhurkovka31ru/libraries/src/Application/SiteApplication.php",
+		"/D/OSPanel/domains/azhurkovka31ru/libraries/src/Application/CMSApplication.php",
+		"/D/OSPanel/domains/azhurkovka31/libraries/src/Application/SiteApplication.php",
+		"/D/OSPanel/domains/kovvorota/wp-config.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/templateDetails.xml",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_templates/models/template.php",
+		"/D/OSPanel/domains/azhurkovka31/libraries/joomla/application/web/router.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/templateDetails.xml",
+		"/D/trendshoptwo/templateDetails.xml",
+		"/D/OSPanel/domains/trendtmp/administrator/language/overrides/ru-RU.override.ini",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/templateInfo.php",
+		"/D/OSPanel/domains/kovvorota/wp-content/uploads/wc-logs/.htaccess",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/templateHook.php",
+		"/D/OSPanel/domains/trendtmp/templates/trendshop/thememagic.xml",
+		"/D/OSPanel/domains/kovvorota/wp-content/languages/themes/woodmart-ru_RU.po",
+		"/D/OSPanel/domains/kovvorota/wp-content/languages/themes/woodmart-ru_RU.mo",
+		"/D/OSPanel/domains/kovvorota/wp-content/languages/ru_RU-1d17475f620f63a92e2c5d2681c51ee8.json",
+		"/D/OSPanel/domains/kovvorota.com/wp-config.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/metall/index.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_product/spec_png.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_product/spec.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_footer/default.php",
+		"/C/Users/HP/Downloads/XML Sitemap.xml",
+		"/C/Users/HP/Downloads/srv67234_azhurkov.html",
+		"/D/OSPanel/domains/trendtmp/ru-RU.kickstart.ini",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/css/template.css",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/index.php",
+		"/D/OSPanel/domains/azhurkovka31ru/templates/trendshop/local/css/themes/trendshop-default/template.css",
+		"/D/OSPanel/domains/trendtmp/kickstart.php",
+		"/C/Users/HP/Downloads/trend_shop_1_4_1/kickstart.php",
+		"/D/OSPanel/domains/azhurkovka31/modules/mod_virtuemart_category/tmpl/all.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_product/opt.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/productdetails/default0.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/productdetails/default0_images.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/productdetails/default0_images1.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/js/main.js",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_login/default.php",
+		"/D/OSPanel/domains/azhurkovka31/configuration.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/category/pricelist.php",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/models/category.php",
+		"/C/Users/HP/Downloads/configuration (1).php",
+		"/D/OSPanel/domains/url.php",
+		"/D/temp/category.php",
+		"/D/temp/product.php",
+		"/D/OSPanel/domains/azhurkovka31/.htaccess",
+		"/D/azhurkovka/app/css/style.css",
+		"/D/azhurkovka/app/css/layout.css",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/category/catalog0.php",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/views/product/tmpl/product_edit_childs.php",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/views/product/tmpl/product_edit_price.php",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/views/product/tmpl/product_edit.php",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/views/product/view.html.php",
+		"/D/OSPanel/domains/azhurkovka31/components/com_virtuemart/views/productdetails/view.html.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/category/catalog011.php",
+		"/D/OSPanel/domains/azhurkovka31/modules/mod_custom/mod_custom.php",
+		"/D/OSPanel/domains/azhurkovka31/media/mod_headerslider/css/slider.css",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/css/style.css",
+		"/D/OSPanel/domains/azhurkovka31/modules/mod_virtuemart_category/mod_virtuemart_category.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_category/wall0.php",
+		"/C/Users/HP/Downloads/googlea056865325cc1453.html",
+		"/D/OSPanel/domains/azhurkovka31/administrator/components/com_virtuemart/models/product.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_simplecallback/modal.php",
+		"/D/OSPanel/domains/azhurkovka31/plugins/content/customfieldsincontent/customfieldsincontent.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/category/catalog01.php",
+		"/D/OSPanel/domains/azhurkovka31/plugins/quickicon/akeebabackup/akeebabackup.php",
+		"/D/index.html",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_content/article/contacts.php",
+		"/D/OSPanel/domains/azhurkovka31/index.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/com_virtuemart/category/default.php",
+		"/D/OSPanel/modules/system/html/openserver/phpinfo.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_custom/map.php",
+		"/D/OSPanel/modules/system/html/openserver/phpmyadmin/phpinfo.php",
+		"/D/OSPanel/domains/azhurkovka31/components/com_virtuemart/router.php",
+		"/C/Users/HP/Downloads/configuration.php",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/templateDetails.xml",
+		"/D/OSPanel/domains/azhurkovka31/language/ru-RU/ru-RU.tpl_metall.sys.ini",
+		"/D/OSPanel/domains/azhurkovka31/language/ru-RU/ru-RU.tpl_metall.ini",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/language/ru-RU/ru-RU.tpl_metall.sys.ini",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_category/default0.php",
+		"/D/OSPanel/domains/azhurkovka31/language/ru-RU/ru-RU.com_virtuemart.ini",
+		"/D/OSPanel/domains/azhurkovka31/templates/metall/html/mod_virtuemart_category/accordeon.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 127.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hesh",
+			"max_execution_tim",
+			"post_max_size",
+			"JPATH_VM_ADMINISTRATOR",
+			"VMPATH_ADMIN",
+			"JPATH_VM_ADMINISTRATOR",
+			"О магазине",
+			"plgContentJComments",
+			"Quick view",
+			"execute",
+			"initialiseApp",
+			"execute",
+			"root_user",
+			"GetLevelCatArray",
+			"$cathas1subcat",
+			"$categories",
+			"GetLevelCatArray",
+			">GetTreeCatArray",
+			"GetTreeCatArray",
+			"$vendors",
+			"vmmodel",
+			"fotorama",
+			"metr"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hash"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sql_query.pl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								394
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_helper.box_height": 25,
+							"color_helper.color_scheme": "Packages/Theme - Piatto/Piatto Dark.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".pl",
+								"current_syntax": "Perl/Perl",
+								"enabled": false,
+								"last_updated": 1614770719.29
+							},
+							"syntax": "Packages/Perl/Perl.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 175.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sql_insert.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_helper.box_height": 25,
+							"color_helper.color_scheme": "Packages/Theme - Piatto/Piatto Dark.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".txt",
+								"current_syntax": "Text/Plain text",
+								"enabled": false,
+								"last_updated": 1614770719.29
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sql_query.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 370.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
