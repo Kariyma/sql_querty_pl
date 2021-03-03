@@ -1,0 +1,7 @@
+host = localhost
+database = algorithm_bank
+username = perl
+pass = perl
+context = create # варианты исполнения программы, создать бд
+TABLE `algorithm_bank` (`algorithm_name` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL, `size` int(11) NOT NULL, `lines_number` int(11) DEFAULT NULL, `file_type` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL, `modifiers` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL)
+VALUES ('filter.pl', 5255, 113, 'pl', '')
