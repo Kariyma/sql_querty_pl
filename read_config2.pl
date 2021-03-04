@@ -30,12 +30,12 @@ sub read_config {
 			$param{$field} = $value;
 			next;
 		}
-		if ($line =~ /^((TABLE)\s*.+)$/){
-			$param{$2} = $1;
+		if ($line =~ /^(TABLE)\s*(.+)$/){
+			$param{$1} = $2;
 			next;
 		}
-		if ($line =~ /^((VALUES)\s*.+)$/){
-			$param{$2} = $1;
+		if ($line =~ /^(VALUES)\s*(.+)$/){
+			$param{$1} = $2;
 			next;
 		}
 	}
