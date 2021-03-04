@@ -6,8 +6,9 @@ pass = perl
 # context = insert - вставить строки в таблицу
 # context = update - изменить строки в таблице
 # context = delete - удалить строки из таблицы
-context = insert
-TABLE `algorithm_bank` (`algorithm_name`, `size`, `lines_number`, `file_type`, `modifiers`)
+context = delete
+TABLE `algorithm_bank`
 # Значения полей в скобках через запятую.
 # Для добавления нескольких строк (),()
-VALUES ('sub3.pl', 88, 10, 'pl', 'del')
+VALUES `algorithm_name` = 'sub3.pl'
+

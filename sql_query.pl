@@ -9,6 +9,10 @@ my $filename = shift or die "Usage: $0 FILENAME\n";
 my %config = read_config( $filename, 'utf8' );
 my @param = ('host', 'database', 'username', 'pass', 'context', 'TABLE');
 
+# print Dumper \%config;
+# print "\n";
+#exit 0;
+
 for (@param){
 		unless ($config{$_}) {
 			print "Parameter $_ is not specified in the $filename\n";
@@ -26,19 +30,31 @@ my $user = $config{'username'};
 my $password = $config{'pass'};
 my $query;
 
+
 my $values_data = $config{'VALUES'};
+my $table_data = $config{'TABLE'};
+# Выбираем с начала строки первое вхождеие в ``, отсекаем возможные имена полей таблицы,
+# которые указываются в (), для контекста create
+$config{'TABLE'} =~ /^(`.+`) *\(*/; 
+my $table_name = $1;
 
 switch ($config{'context'}){
 	case 'create' {
 		$query = 'CREATE TABLE '.$config{'TABLE'};
 	}
 	case 'insert' {
-		my $table_data = $config{'TABLE'};
 		# Выбираем всё кроме символов межу ` (название таблицы и полей),
 		# а также кроме скобок в которые заключены названия полей.
 		# Выбранное заменяем на НИЧЕГО то есть удаляем
 		$table_data =~ s/(?<=`) [^,`]+(?=\)$|,)//g; 
 		$query = 'INSERT INTO '.$table_data.' VALUES '.$config{'VALUES'};
+	}
+	case 'delete' {
+		$query = "DELETE FROM $table_name WHERE $config{'VALUES'};";
+	}
+	case 'update' {
+		print "UPDATE\n";
+		$query = "UPDATE $table_name $config{'VALUES'};";
 	}
 }
 
@@ -46,11 +62,10 @@ switch ($config{'context'}){
 # 	when('create'){ $query = 'CREATE '.$table_data;}
 # }
 
-# print $query;
-# print "\n";
+print $query;
+print "\n";
 
 my $dbh = DBI->connect("DBI:mysql:$config{'database'}:$config{'host'}", $config{'username'}, $config{'pass'},{ RaiseError => 1, AutoCommit => 1 });
-
 my $result = $dbh->do($query);
 print "SUCCESSFUL";
 
@@ -66,15 +81,7 @@ sub read_config {
 		chomp $line;
 		$line =~ s/(#.*)$//; 	# Ищем в строке комментарии и удаляем его
 		$line =~ s/^\s+|\s+$//g; #Ищем пробелы в начале и в конце строки и удаляем их
-		if ($line =~ /^\s*$/) {
-			next;
-		}
-		if ($line =~ /^\[(.+)\]$/){ # Ищем начло секции и берём её имя
-			next;
-		}
-		if ($line =~ /\s*=\s*(.+$)/){
-			my ($field, $value) = split /\s*=\s*(.+$)/, $line;
-			$param{$field} = $value;
+		if ($line =~ /^\s*$/) { #Пропускаем пустые строки
 			next;
 		}
 		if ($line =~ /^(TABLE)\s*(.+)$/){
@@ -83,6 +90,11 @@ sub read_config {
 		}
 		if ($line =~ /^(VALUES)\s*(.+)$/){
 			$param{$1} = $2;
+			next;
+		}
+		if ($line =~ /\s*=\s*(.+$)/){
+			my ($field, $value) = split /\s*=\s*(.+$)/, $line;
+			$param{$field} = $value;
 			next;
 		}
 	}

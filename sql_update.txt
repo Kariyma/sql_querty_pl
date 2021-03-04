@@ -1,4 +1,4 @@
-host = localhost
+#host = localhost
 database = algorithm_bank
 username = perl
 pass = perl
@@ -6,8 +6,10 @@ pass = perl
 # context = insert - вставить строки в таблицу
 # context = update - изменить строки в таблице
 # context = delete - удалить строки из таблицы
-context = insert
-TABLE `algorithm_bank` (`algorithm_name`, `size`, `lines_number`, `file_type`, `modifiers`)
+context = update
+TABLE `algorithm_bank`
 # Значения полей в скобках через запятую.
 # Для добавления нескольких строк (),()
-VALUES ('sub3.pl', 88, 10, 'pl', 'del')
+VALUES SET `size` = '1024', `lines_number` = '100', `modifiers` = 'bad' WHERE `algorithm_name` = 'sub4.pl'
+
+#UPDATE `algorithm_bank` SET `size` = '1024', `lines_number` = '100', `modifiers` = 'bad' WHERE `algorithm_bank`.`algorithm_name` = 'sub4.pl'
