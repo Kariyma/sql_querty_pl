@@ -10,4 +10,4 @@ context = insert
 TABLE `algorithm_bank` (`algorithm_name`, `size`, `lines_number`, `file_type`, `modifiers`)
 # Значения полей в скобках через запятую.
 # Для добавления нескольких строк (),()
-VALUES ('filter.pl', 5255, 113, 'pl', '')
+VALUES ('sub3.pl', 566, 77, 'pl', ''), ('sub4.pl', 556, 34, 'pl', 'good')

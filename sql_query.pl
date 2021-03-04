@@ -5,46 +5,40 @@ use Data::Dumper qw(Dumper);
 #use feature "switch";
 use Switch;
 
-# my @drivers = DBI->available_drivers;
-# my @mysql_data_sources = DBI->data_sources('mysql');
-# print "Available   drivers :\n" . join("\n",@drivers) ."\n";
-# print "MySQL databases:\n" . join("\n",@mysql_data_sources) . "\n";
-
-
 my $filename = shift or die "Usage: $0 FILENAME\n";
 my %config = read_config( $filename, 'utf8' );
+my @param = ('host', 'database', 'username', 'pass', 'context', 'TABLE');
+
+for (@param){
+		unless ($config{$_}) {
+			print "Parameter $_ is not specified in the $filename\n";
+			exit 0;
+		}
+}
+
+if(!$config{'VALUES'} and $config{'context'} ne 'create'){
+	print "Parameter VALUES is not specified in the $filename\n";
+	exit 0;
+}
+
 my $database = $config{'database'};
 my $user = $config{'username'};
 my $password = $config{'pass'};
 my $query;
 
-if(!$config{'context'}){
-	print "The action context is not specified in the $filename\n";
-	exit 0;
-}
-my $context = $config{'context'};
-if(!$config{'TABLE'}){
-	print "TABLE block is not specified in the $filename\n";
-	exit 0;
-}
-my $table_data = $config{'TABLE'};
-if(!$config{'VALUES'} and $context ne 'create'){
-	print "VALUES block is not specified in the $filename\n";
-	exit 0;
-}
 my $values_data = $config{'VALUES'};
 
-#print "context $context\n";
-switch ($context){
+switch ($config{'context'}){
 	case 'create' {
-		$query = 'CREATE TABLE'.$table_data;
+		$query = 'CREATE TABLE '.$config{'TABLE'};
 	}
 	case 'insert' {
+		my $table_data = $config{'TABLE'};
 		# Выбираем всё кроме символов межу ` (название таблицы и полей),
 		# а также кроме скобок в которые заключены названия полей.
 		# Выбранное заменяем на НИЧЕГО то есть удаляем
 		$table_data =~ s/(?<=`) [^,`]+(?=\)$|,)//g; 
-		$query = 'INSERT INTO '.$table_data.' VALUES '.$values_data;
+		$query = 'INSERT INTO '.$table_data.' VALUES '.$config{'VALUES'};
 	}
 }
 
@@ -54,9 +48,9 @@ switch ($context){
 
 # print $query;
 # print "\n";
-# CREATE TABLE
 
-my $dbh = DBI->connect("DBI:mysql:$database", $user, $password,{ RaiseError => 1, AutoCommit => 1 });
+my $dbh = DBI->connect("DBI:mysql:$config{'database'}:$config{'host'}", $config{'username'}, $config{'pass'},{ RaiseError => 1, AutoCommit => 1 });
+
 my $result = $dbh->do($query);
 print "SUCCESSFUL";
 

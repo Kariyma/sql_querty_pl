@@ -1,0 +1,11 @@
+host = localhost
+database = algorithm_bank
+username = perl
+pass = perl
+context = insert # варианты исполнения программы, создать бд
+TABLE `algorithm_bank` (`algorithm_name` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL, `size` int(11) NOT NULL, `lines_number` int(11) DEFAULT NULL, `file_type` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL, `modifiers` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL)
+VALUES ('filter.pl', 5255, 113, 'pl', '')
+
+#INSERT INTO `algorithm_bank` (`algorithm_name`, `size`, `lines_number`, `file_type`, `modifiers`) VALUES ('filter.pl', '5255', '113', 'pl', '')
+
+#CREATE TABLE `algorithm_bank`.`test` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `number` INT(20) NOT NULL , PRIMARY KEY (`id`(10))) ENGINE = InnoDB;
