@@ -22,16 +22,16 @@ if(!$config{'context'}){
 	print "The action context is not specified in the $filename\n";
 	exit 0;
 }
+my $context = $config{'context'};
 if(!$config{'TABLE'}){
 	print "TABLE block is not specified in the $filename\n";
 	exit 0;
 }
-if(!$config{'VALUES'}){
+my $table_data = $config{'TABLE'};
+if(!$config{'VALUES'} and $context ne 'create'){
 	print "VALUES block is not specified in the $filename\n";
 	exit 0;
 }
-my $context = $config{'context'};
-my $table_data = $config{'TABLE'};
 my $values_data = $config{'VALUES'};
 
 #print "context $context\n";
