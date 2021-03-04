@@ -40,8 +40,8 @@ switch ($context){
 		$query = 'CREATE TABLE'.$table_data;
 	}
 	case 'insert' {
-		print "table_data: $table_data\n";
-
+		$table_data =~ s/(?<=`) [^,`]+(?=\)$|,)//g;
+		$query = 'INSERT INTO '.$table_data.' VALUES '.$values_data;
 		# if ($table_data =~ /^(`.+`)\s\((.+)\)$/) {
 		# 	my ($table_name, $table_columns) = ($1 , $2);
 		# 	my @table_columns_name = $table_columns =~ /(`\w+`)/g;
@@ -53,10 +53,7 @@ switch ($context){
 		# 	print Dumper @table_columns_name;
 		# 	print "table_columns: $table_columns\n";
 		# 	print "table_data: $table_data\n";
-
-
-		}
-		
+		# }
 	}
 }
 
@@ -64,12 +61,12 @@ switch ($context){
 # 	when('create'){ $query = 'CREATE '.$table_data;}
 # }
 
-#print $query;
+# print $query;
 # print "\n";
 # CREATE TABLE
 
 my $dbh = DBI->connect("DBI:mysql:$database", $user, $password,{ RaiseError => 1, AutoCommit => 1 });
-#my $result = $dbh->do($query);
+my $result = $dbh->do($query);
 print "SUCCESSFUL";
 
 $dbh->disconnect;
